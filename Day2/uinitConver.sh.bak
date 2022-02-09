@@ -1,0 +1,13 @@
+#!/bin/bash
+  echo " Enter the option "
+  echo "1.ft to in  2.ft to mts  3.mts to acre
+  read ct
+  case $ct in
+     1) ft=feet;
+	    in=inches
+		n=42
+		echo $n $in=$(($n/12))$)) $ft
+		echo 
+		;;
+  
+ 
